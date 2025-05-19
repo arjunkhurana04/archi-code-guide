@@ -7,20 +7,30 @@ from chainlit.logger import logger
 from ._utils import is_path_inside
 
 # Default chainlit.md file created if none exists
-DEFAULT_MARKDOWN_STR = """# Welcome to Chainlit! 🚀🤖
+DEFAULT_MARKDOWN_STR = """# Welcome to ArchiCode Guide!
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Hello, Architects, Engineers and Builders! 👋 
 
-## Useful Links 🔗
+ArchiCode Guide is your AI-powered assistant for navigating the very complex Indian National Building Code and architectural regulations. Ask any question about NBC 2016 (currently only for the fire and life safety chapter) requirements, and get instant, accurate answers with citations.
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+## How to use ArchiCode Guide
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+- Ask specific questions about building code requirements
+- Get answers with direct citations to code sections
+- Explore related regulations through follow-up questions
 
-## Welcome screen
+## Example questions
 
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+- "What are the requirements for fire separations in residential buildings?"
+- "Explain the exit requirements for a 3-story office building"
+- "Show me the fire resistance ratings for load-bearing walls"
+
+Built with ❤️ for AEC professionals everywhere
+
+---
+
+
+*P.S. Currently, ArchiCode Guide only contains data from the Fire and Life Safety chapter of NBC 2016. Support for additional chapters is coming soon!*
 """
 
 
