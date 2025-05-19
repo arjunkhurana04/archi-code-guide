@@ -1,4 +1,5 @@
-ArchiCode Guide 🏗️🤖
+## ArchiCode Guide 🏗️🤖
+
 A modern AI-powered architectural code assistant
 ArchiCode Guide transforms how architects, engineers, and builders navigate complex building codes. This intelligent assistant instantly retrieves, interprets, and explains architectural regulations, letting you focus on design rather than drowning in documentation.
 
